@@ -1,0 +1,73 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+body {
+    
+    background-color: #F3F5FC;
+}
+
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+
+}
+
+.input-texto {    
+    margin-top: 90px;
+
+
+    
+}
+.mensagem {
+    
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-position: 50%;
+    background-image: url("naoEncontrado.PNG");
+    background-repeat: no-repeat;
+
+    
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: lightblue;
+    color: white;
+    border-radius: 24px;
+    width: 250px;
+    
+}
+.desencriptar {
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 24px;
+    width: 250px;
+    
+}
+
+.informacao {
+    
+    margin-left: 30px;
+    font-size: 10px;
+
+}
+#info {
+    
+    position: static;
+    background-position: 50%;
+    margin-left: 10px;
+    margin-top: 90px;
+    margin-bottom:-50px;
+    margin-right: 50px;
+}
